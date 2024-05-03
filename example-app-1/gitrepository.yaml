@@ -10,7 +10,8 @@ spec:
     branch: main
   url: https://github.com/VLXMDE/flapp
     secretRef:
-    name: example-app-1
+    # name: example-app-1
+    name: dockerhub-credential
   
 # apiVersion: source.toolkit.fluxcd.io/v1
 # kind: GitRepository
