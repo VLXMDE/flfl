@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       app: example-app-1
-  replicas: 0
+  replicas: 8
   strategy:
     type: RollingUpdate
     rollingUpdate:
