@@ -4,7 +4,7 @@ metadata:
   name: example-app-3
   namespace: default
 spec:
-  image: docker.io/demvx007/example-app-3
+  image: docker.io/demvx007/example-app-3:0
   interval: 1m0s
   secretRef:
     name: dockerhub-credential
