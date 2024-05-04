@@ -1,13 +1,13 @@
 apiVersion: image.toolkit.fluxcd.io/v1beta1
 kind: ImageUpdateAutomation
 metadata:
-  name: example-app-1
+  name: example-app-3
   namespace: default
 spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: example-app-1
+    name: example-app-3
   git:
     checkout:
       ref:
@@ -20,5 +20,5 @@ spec:
     push:
       branch: main
   update:
-    path: ./example-app-1/deploy/deployment.yaml
+    path: ./example-app-3/deploy/deployment.yaml
     strategy: Setters

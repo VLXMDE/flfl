@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: example-app-1
+  name: example-app-3
   namespace: default
 spec:
   interval: 1m0s
@@ -10,4 +10,4 @@ spec:
     branch: main
   url: https://github.com/VLXMDE/flapp
   secretRef:
-    name: example-app-1-github
+    name: example-app-3-github
